@@ -9,10 +9,13 @@
 import SwiftUI
 
 struct StatText: View {
+    
+    var statName: String
+    var statValue: String
     var body: some View {
         HStack{
-            Text("Age: ").font(.system(size: 40)).fontWeight(.bold).padding(.leading, 30)
-            Text("17").font(.system(size: 40)).fontWeight(.light).padding(.trailing, 30)
+            Text(statName).font(.system(size: 30)).fontWeight(.bold).padding(.leading, 30)
+            Text(statValue).font(.system(size: 20)).fontWeight(.light).padding(.trailing, 30)
             Spacer()
         }
     }
@@ -20,6 +23,6 @@ struct StatText: View {
 
 struct StatText_Previews: PreviewProvider {
     static var previews: some View {
-        StatText()
+        StatText(statName: "Age", statValue: "0")
     }
 }
