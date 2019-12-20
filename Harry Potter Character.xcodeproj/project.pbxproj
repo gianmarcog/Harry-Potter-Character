@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		913184D12395EC6A0004BF33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913184D02395EC6A0004BF33 /* AppDelegate.swift */; };
 		913184D32395EC6A0004BF33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913184D22395EC6A0004BF33 /* SceneDelegate.swift */; };
-		913184D52395EC6A0004BF33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913184D42395EC6A0004BF33 /* ContentView.swift */; };
+		913184D52395EC6A0004BF33 /* WizardDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913184D42395EC6A0004BF33 /* WizardDetail.swift */; };
 		913184D72395EC6E0004BF33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 913184D62395EC6E0004BF33 /* Assets.xcassets */; };
 		913184DA2395EC6E0004BF33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 913184D92395EC6E0004BF33 /* Preview Assets.xcassets */; };
 		913184DD2395EC6E0004BF33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 913184DB2395EC6E0004BF33 /* LaunchScreen.storyboard */; };
 		91B07C8223AC5F5000485AE4 /* StatText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B07C8123AC5F5000485AE4 /* StatText.swift */; };
+		91B07C8423ACDC3E00485AE4 /* WizardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B07C8323ACDC3E00485AE4 /* WizardRow.swift */; };
+		91B07C8623AD0E8200485AE4 /* Wizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B07C8523AD0E8200485AE4 /* Wizard.swift */; };
+		91B07C8823AD13FA00485AE4 /* WizardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91B07C8723AD13FA00485AE4 /* WizardList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		913184CD2395EC6A0004BF33 /* Harry Potter Character.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Harry Potter Character.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		913184D02395EC6A0004BF33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		913184D22395EC6A0004BF33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		913184D42395EC6A0004BF33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		913184D42395EC6A0004BF33 /* WizardDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardDetail.swift; sourceTree = "<group>"; };
 		913184D62395EC6E0004BF33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		913184D92395EC6E0004BF33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		913184DC2395EC6E0004BF33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		913184DE2395EC6E0004BF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91B07C8123AC5F5000485AE4 /* StatText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatText.swift; sourceTree = "<group>"; };
+		91B07C8323ACDC3E00485AE4 /* WizardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardRow.swift; sourceTree = "<group>"; };
+		91B07C8523AD0E8200485AE4 /* Wizard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wizard.swift; sourceTree = "<group>"; };
+		91B07C8723AD13FA00485AE4 /* WizardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WizardList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +66,15 @@
 			children = (
 				913184D02395EC6A0004BF33 /* AppDelegate.swift */,
 				913184D22395EC6A0004BF33 /* SceneDelegate.swift */,
-				913184D42395EC6A0004BF33 /* ContentView.swift */,
+				913184D42395EC6A0004BF33 /* WizardDetail.swift */,
 				91B07C8123AC5F5000485AE4 /* StatText.swift */,
 				913184D62395EC6E0004BF33 /* Assets.xcassets */,
 				913184DB2395EC6E0004BF33 /* LaunchScreen.storyboard */,
 				913184DE2395EC6E0004BF33 /* Info.plist */,
 				913184D82395EC6E0004BF33 /* Preview Content */,
+				91B07C8323ACDC3E00485AE4 /* WizardRow.swift */,
+				91B07C8523AD0E8200485AE4 /* Wizard.swift */,
+				91B07C8723AD13FA00485AE4 /* WizardList.swift */,
 			);
 			path = "Harry Potter Character";
 			sourceTree = "<group>";
@@ -151,8 +160,11 @@
 			files = (
 				913184D12395EC6A0004BF33 /* AppDelegate.swift in Sources */,
 				913184D32395EC6A0004BF33 /* SceneDelegate.swift in Sources */,
+				91B07C8823AD13FA00485AE4 /* WizardList.swift in Sources */,
 				91B07C8223AC5F5000485AE4 /* StatText.swift in Sources */,
-				913184D52395EC6A0004BF33 /* ContentView.swift in Sources */,
+				91B07C8423ACDC3E00485AE4 /* WizardRow.swift in Sources */,
+				91B07C8623AD0E8200485AE4 /* Wizard.swift in Sources */,
+				913184D52395EC6A0004BF33 /* WizardDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
