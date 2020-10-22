@@ -1,4 +1,4 @@
-# Harry-Potter-Character
+# Harry-Potter-Character-Examples
 
 This project was created with Xcode version 11.2.1 and the SwiftUI Framework.
 
